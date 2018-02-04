@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    max-width: 1200px;
+overflow: hidden;
+}
+.imagen img {
+    display: block;
+    height: 100vh;
+}
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.phrase-container{
+   padding: 0 3em;
+}
+.phrase {
+    width: 40vw;
+    
+}
+
+.phrase__title {
+    font-family: "PT Serif", serif;
+    font-size: 4em;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.phrase_subtitle {
+    font-family: "Quicksand", sans-serif;
+    font-weight: light;
+    font-size: 1em;
+    padding-top: 1.5em;
+}
+
+.imagen {
+    width: 60vw;
+}
+
+.footer{
+    background: rgb(226, 83, 16);
+    width: 50vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 2em;
+}
+.footer__title{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    letter-spacing: .2em;
+}
