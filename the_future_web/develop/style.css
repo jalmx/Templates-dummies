@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     max-width: 1200px;
-overflow: hidden;
+    overflow: hidden;
 }
 .imagen img {
     display: block;

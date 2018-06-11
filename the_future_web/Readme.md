@@ -1,0 +1,5 @@
+# Practica web
+
+View
+
+![view]()
