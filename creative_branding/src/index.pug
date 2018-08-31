@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(href="https://file.myfontastic.com/udWK7E5ejW5ShH3mtEwJBd/icons.css" rel="stylesheet")
+        link(rel="stylesheet", href="style/style.css")
+        title CREATIVE BRANDING
+    body
+      header.header
+        h1.header__title CREATIVE BRANDING
+        h2.header__subtitle Please familiarize yourself with our offer
+        a(href="#").button read more
+        nav.menu
+          .logo onepage
+          ul.menu__list
+            li.menu__item: a(href="#").menu__link home
+            li.menu__item: a(href="#section__about").menu__link about us
+            li.menu__item: a(href="#section__portafolio").menu__link portafolio
+            li.menu__item: a(href="#section__contact").menu__link contact
+      section.section#section__about
+        .section__about
+          h1.section__title about us
+          h2.section__subtitle Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat excepturi vitae veritatis obcaecati totam!
+          .section__profile
+            .profile
+              .icon-profile 
+                .icon-container 
+                  img(src="/assets/icon-responsive.svg", alt="compu") 
+              h2.profile__title responsive
+              p.profile__description Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Repellat Excepturi Vitae Veritatis Obcaecati Totam!
+            .profile
+              .icon-profile 
+                .icon-container
+                  img(src="assets/icon-minimalist.svg", alt="minimalist") 
+              h2.profile__title minimalist
+              p.profile__description Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Repellat Excepturi Vitae Veritatis Obcaecati Totam!
+            .profile
+              .icon-profile 
+                .icon-container
+                  img(src="assets/icon-freebies.svg", alt="freebies") 
+              h2.profile__title freebies
+              p.profile__description Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Repellat Excepturi Vitae Veritatis Obcaecati Totam!
+      section.section#section__portafolio
+        .section__portafolio
+          h1.portafolio__title portafolio
+          .portafolio__img
+            img(src="assets/portafolio.jpg", alt="portafolio", width="100%").portafolio__imgs
+          a(href="#").button.button-portafolio read more
+      article.section__partners
+        h2.partners__title Thanks for partners
+        .partners__logo
+          img(src="/assets/partner-1.svg", alt="").partners__logo__img
+          img(src="/assets/partner-2.svg", alt="").partners__logo__img
+          img(src="/assets/partner-3.svg", alt="").partners__logo__img
+          img(src="/assets/partner-4.svg", alt="").partners__logo__img
+      section.section#section__contact
+        .section__contact
+          h1.contact__title contact
+          .formulario__container
+            .formulario__contact
+              form(action="", method="get")#formulario.formulario
+                .label__group
+                  label(for="input__name").label your name
+                  label(for="input__password").label your email
+                .input__group
+                  .input-content: input(type="text").input#input__name
+                  .input-content: input(type="password").input#input__password
+                .input__message__group
+                  label(for="input__menssage").label.label__message menssage
+                  textarea#input__menssage.input.input__message
+                .container__buton: a(href="#").button.formulario--button send
+            .section__network
+              p.section_contact_message Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              p.contact_name Josef Leyva
+              p.section_email email: 
+                a(href="mailto:contacto@hotmail.com").contact_email contacto@correo.com
+              .section__social_network
+                a(href="plus.google.com").link_icon: .icon-plus
+                a(href="facebook.com").link_icon: .icon-fb
+                a(href="be.com").link_icon: .icon-be
+                a(href="github.com").link_icon: .icon-web
+      footer.footer
+        .footer__sitemap
+          a(href="#").sitmap__link home
+          a(href="#").sitmap__link privacy policy
+          a(href="#").sitmap__link rss
+          a(href="#").sitmap__link facebook
+          a(href="#").sitmap__link dribble
+          a(href="#").sitmap__link twitter
+          a(href="#section__contact").sitmap__link contact
+        p.footer__copyright &copy; 2018 Copyright 1999-2018 Lorem ipsum dolor sit amet consectetur adipisicing elit.
